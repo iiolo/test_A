@@ -1,8 +1,13 @@
 class MemberDAO 
 {
-	public int insert(){
+	public void insert(){
 		System.out.println("등록하였습니다.");
+<<<<<<< HEAD
+		
+=======
+		System.out.println("등록한 회원의 정보, 홍길동 20");
 		return 1;
+>>>>>>> cc083217021fa45dcb4f68dc726764ed22c25e33
 	}
 
 	public int update(){
